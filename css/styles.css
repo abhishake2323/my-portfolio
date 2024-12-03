@@ -8,7 +8,8 @@ body {
 }
 
 header {
-    background-color: #333;
+    background: rgb(117,118,81);
+background: linear-gradient(320deg, rgba(117,118,81,1) 0%, rgba(81,111,118,1) 64%, rgba(0,212,255,1) 100%);
     color: white;
     padding: 20px;
     text-align: center;
@@ -21,7 +22,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin:0 10px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -29,35 +30,37 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
 nav ul li a:hover {
     text-decoration: underline;
 }
 
 section {
-    padding: 20px;
+    padding: 5px 20px;
     margin: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h2 {
-    color: #333;
-}
 
+ 
 
 footer {
-    background-color: #333;
-    color: white;
+    /* background-color: #333; */
+    /* color: white; */
     text-align: center;
-    padding: 10px;
+    padding: 2px;
     position: fixed;
     width: 100%;
+    opacity: 40%;
     bottom: 0;
 }
 
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
-    header, footer {
+
+    header,
+    footer {
         padding: 10px;
     }
 
@@ -71,4 +74,146 @@ footer {
         padding: 10px;
         margin: 10px;
     }
+}
+
+
+.projectcards {
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.projectcard {
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: #dde7eb;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+
+.mybtn:hover {
+    color: white;
+    background-color: rgb(76, 192, 213);
+    font-weight: 700;
+    border: 0.1px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+.mybtn:active {
+    color: white;
+    background-color: rgb(49, 116, 167);
+    font-weight: 700;
+    border: 0.1px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.mybtn {
+    font-weight: 700;
+    border: 0.1px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+input:focus,input:active{
+    font-size: 18px;
+    border:1px  
+}
+input,textarea{
+    font-size: 18px;
+    border:1px   gray;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    width: 80%;
+    margin:0 1rem;
+}
+.d-inline {
+    padding: 1rem;
+    margin: 0 1rem 0 1rem; 
+    display: flex;
+}
+
+.dflex {
+    align-items: baseline;
+    position: relative; 
+    display:  flex;
+}
+
+.float-right {
+    top: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+.text-blue-col {
+    color: rgb(58, 106, 165);
+}
+
+.popupwindw {
+    top: 2%;
+    left: 5%;
+
+    width: 80vw;
+
+    margin: 3rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 0px 0px 5000px rgb(10 25 36 / 46%);
+    z-index: 9999;
+    height: 50vh;
+    display: block;
+    position: fixed;
+}
+
+.bg-header {
+
+    padding: 1rem;
+    background-color: gainsboro;
+}
+
+.popbody {
+
+    padding: 1rem
+}
+
+.d-none {
+
+    display: none;
+}
+
+.popfooter {
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+table{
+
+    width: 100%;
+}
+
+table >tbody >tr> td >input{
+
+     height: 30px;
+}
+
+table  {
+border-spacing: 1rem;;
+     
+}
+ 
+
+#contact{
+color: white;
+    background-color: #757651;
+}
+
+#submitBtn{
+
+      background-color: rgb(217, 193, 32) 
 }
