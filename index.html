@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <script defer src="script.js"></script>
     <title>Abhishek Masure Jayatheertha</title>
-      <!-- Element to contain animated typing -->
-  <span id="element"></span>
+    <!-- Element to contain animated typing -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  <!-- Setup and start animation! -->
-   
-</body>
-    
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+
+    </body>
+
 </head>
+
 <body>
     <!-- Header Section -->
     <header>
@@ -26,60 +29,115 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
-                 
+
             </ul>
         </nav>
         <label class="switch" id="toggleTheme">
-           
+
             <input type="checkbox" id="checkboxTheme">
-            <span class="slider round">   </span>
+            <span class="slider round"> </span>
             <div class="slidertext">Dark mode</div>
-        </label> 
+        </label>
     </header>
 
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p id="about1">Over 10 years of diverse experience in developing and successfully implementing various Strategic IT Operations and Business Process strategies designed to improve operating efficiency, reduce costs and improve profits. Highly effective influencer, negotiation and collaboration skills with the ability to work across a global enterprise comprising many different cultures. 
-            <br> Significant experience in project management methodologies, Agile methodologies (Scrum, Kanban, SAFe), system development life cycle (SDLC), Program/Project Governance, Business & System Analysis, Cross-Functional Management, Requirements documentation, Regulatory Compliance, Process Improvement and Process Re-engineering. Senior Client relationship and Portfolio Management, effective creation and presentation of proposals, business cases and project status to executive level client sponsors. Management and delivery background strengthened by foundations in Project Management, Enterprise Document Management systems, Custom application development/build.</p>
+        <p id="about1">Over 10 years of diverse experience in developing and successfully implementing various Strategic
+            IT Operations and Business Process strategies designed to improve operating efficiency, reduce costs and
+            improve profits. Highly effective influencer, negotiation and collaboration skills with the ability to work
+            across a global enterprise comprising many different cultures.
+            <br> Significant experience in project management methodologies, Agile methodologies (Scrum, Kanban, SAFe),
+            system development life cycle (SDLC), Program/Project Governance, Business & System Analysis,
+            Cross-Functional Management, Requirements documentation, Regulatory Compliance, Process Improvement and
+            Process Re-engineering. Senior Client relationship and Portfolio Management, effective creation and
+            presentation of proposals, business cases and project status to executive level client sponsors. Management
+            and delivery background strengthened by foundations in Project Management, Enterprise Document Management
+            systems, Custom application development/build.
+        </p>
     </section>
-  
+
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        
-         
-            <div class="projectcard dflex "> 
-                <h4 class="prjname">  Global IT Service Optimization Program</h4> 
-                <div class="d-none content">
-                    
-                    <p>Led a large-scale IT service optimization initiative to streamline operations across multiple global offices. The program involved deploying a centralized IT service management platform (e.g., ServiceNow) and consolidating redundant systems. Using Agile methodologies (SAFe), the project implemented standardized IT support workflows, reducing ticket resolution time by 35% and cutting operational costs by 20%. Extensive training and cultural alignment workshops ensured adoption in diverse regions.</p>
-                </div>
-                <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
-            <div class="projectcard dflex"> <h4 class="prjname" >Automated Regulatory Compliance System (ARCS)</h4>
-                <div class="d-none content">
-                    
-                    <p> Developed and implemented an automated compliance management system to ensure adherence to complex regulatory requirements in multiple jurisdictions. The system automated compliance monitoring, reporting, and documentation, reducing manual compliance checks by 50%. Utilized Agile Scrum methodology and collaborated with cross-functional stakeholders to define requirements. Project outcomes included improved compliance accuracy, enhanced audit readiness, and a 40% reduction in compliance-related penalties.</p>
-                </div>
-                 <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
-            <div class="projectcard dflex" > <h4 class="prjname" >Enterprise Document Management Revamp</h4> 
-                <div class="d-none content">
-                    <p>Managed a transformation of the company’s document management system by implementing a modern EDMS (e.g., SharePoint or Documentum). This initiative aimed to support remote access, improve document retrieval time, and enhance security protocols. Conducted extensive requirements gathering and design workshops, created user acceptance testing plans, and deployed a phased rollout approach to minimize disruption. Resulted in a 60% improvement in document retrieval times and increased user satisfaction scores.</p>  </div>
-                <button onclick="showDetails(this)"class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
-            <div class="projectcard dflex"> <h4 class="prjname">Customer Service Process Re-engineering with Automation</h4>
-                <div class="d-none content">
-                    <p>Spearheaded the re-engineering of customer service processes using RPA (Robotic Process Automation) and AI. Designed workflows for repetitive tasks like data entry and account verifications, reducing process time by 45% and enhancing service accuracy. Collaborated with stakeholders to identify key automation opportunities, implemented Kanban for task tracking, and ensured compliance with data privacy regulations. Outcomes included reduced customer service handling time and a 25% increase in customer satisfaction ratings</p>
-                </div>
-                <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show Details</button> </div>
-            
-         
+
+
+        <div class="projectcard dflex ">
+            <h4 class="prjname"> Global IT Service Optimization Program</h4>
+            <div class="d-none content">
+
+                <p>Led a large-scale IT service optimization initiative to streamline operations across multiple global
+                    offices. The program involved deploying a centralized IT service management platform (e.g.,
+                    ServiceNow) and consolidating redundant systems. Using Agile methodologies (SAFe), the project
+                    implemented standardized IT support workflows, reducing ticket resolution time by 35% and cutting
+                    operational costs by 20%. Extensive training and cultural alignment workshops ensured adoption in
+                    diverse regions.</p>
+            </div>
+            <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show
+                Details</button>
+        </div>
+        <div class="projectcard dflex">
+            <h4 class="prjname">Automated Regulatory Compliance System (ARCS)</h4>
+            <div class="d-none content">
+
+                <p> Developed and implemented an automated compliance management system to ensure adherence to complex
+                    regulatory requirements in multiple jurisdictions. The system automated compliance monitoring,
+                    reporting, and documentation, reducing manual compliance checks by 50%. Utilized Agile Scrum
+                    methodology and collaborated with cross-functional stakeholders to define requirements. Project
+                    outcomes included improved compliance accuracy, enhanced audit readiness, and a 40% reduction in
+                    compliance-related penalties.</p>
+            </div>
+            <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show
+                Details</button>
+        </div>
+        <div class="projectcard dflex">
+            <h4 class="prjname">Enterprise Document Management Revamp</h4>
+            <div class="d-none content">
+                <p>Managed a transformation of the company’s document management system by implementing a modern EDMS
+                    (e.g., SharePoint or Documentum). This initiative aimed to support remote access, improve document
+                    retrieval time, and enhance security protocols. Conducted extensive requirements gathering and
+                    design workshops, created user acceptance testing plans, and deployed a phased rollout approach to
+                    minimize disruption. Resulted in a 60% improvement in document retrieval times and increased user
+                    satisfaction scores.</p>
+            </div>
+            <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show
+                Details</button>
+        </div>
+        <div class="projectcard dflex">
+            <h4 class="prjname">Customer Service Process Re-engineering with Automation</h4>
+            <div class="d-none content">
+                <p>Spearheaded the re-engineering of customer service processes using RPA (Robotic Process Automation)
+                    and AI. Designed workflows for repetitive tasks like data entry and account verifications, reducing
+                    process time by 45% and enhancing service accuracy. Collaborated with stakeholders to identify key
+                    automation opportunities, implemented Kanban for task tracking, and ensured compliance with data
+                    privacy regulations. Outcomes included reduced customer service handling time and a 25% increase in
+                    customer satisfaction ratings</p>
+            </div>
+            <button onclick="showDetails(this)" class="mybtn float-right text-blue-col showDetsBtn">Show
+                Details</button>
+        </div>
+
+
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
         <div class="skillcards">
+            <div class="skillcard">
+                <div class="skill-title">HTML</div>
+                <img loading="lazy" class="animate__animated  animate__bounceIn" src="/img/html.png" style="width: 80px;">
+            </div>
 
+            <div class="skillcard">
+                <div class="skill-title">CSS</div>
+                <img  loading="lazy" class="animate__animated  animate__bounceIn" src="/img/css.png" style="width: 70px; margin-top: 10px;">
+            </div>
+            <div class="skillcard">
+                <div class="skill-title">Javascript</div>
+                <img  loading="lazy" class="animate__animated  animate__bounceIn" src="/img/js.png" style="width: 70px;  margin-top: 8px;">
+            </div>
         </div>
 
     </section>
@@ -91,28 +149,42 @@
         </div>
         <div class="popfooter">
 
-            <button class="mybtn"  onclick="closeDetails(this)"> Close</button>
-            
+            <button class="mybtn" onclick="closeDetails(this)"> Close</button>
+
         </div>
     </div>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p style="margin-left: 1rem;"><i> Please mail me at abhishakem@hotmail.com <b>OR</b> &nbsp; <br>Drop a message below</i></p>
+        <p style="margin-left: 1rem;"><i> Please mail me at abhishakem@hotmail.com <b>OR</b> &nbsp; <br>Drop a message
+                below</i></p>
         <table>
             <tbody>
-                <tr > <td  id="contactname">Name </td> <td><input type="text" id="cname"  minlength="3" required>   </td></tr>
-                <tr> <td  id="contactemail">Email </td> <td><input    id="cmail" type="email"  required>   </td></tr>
-               
-                <tr> <td  id="contactmessage">Message </td> <td> <textarea id="cmsg" type="text" minlength="5" placeholder="Please enter your message header"> </textarea>  </td></tr>
-               <tr><td colspan="2" style="text-align: center;"> <button class="mybtn" id="submitBtn" onclick="submitMessage( )">Submit</button></td></tr>
+                <tr>
+                    <td id="contactname">Name </td>
+                    <td><input type="text" id="cname" minlength="3" required> </td>
+                </tr>
+                <tr>
+                    <td id="contactemail">Email </td>
+                    <td><input id="cmail" type="email" required> </td>
+                </tr>
+
+                <tr>
+                    <td id="contactmessage">Message </td>
+                    <td> <textarea id="cmsg" type="text" minlength="5"
+                            placeholder="Please enter your message header"> </textarea> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"> <button class="mybtn" id="submitBtn"
+                            onclick="submitMessage( )">Submit</button></td>
+                </tr>
             </tbody>
         </table>
-              
-           
+
+
         </div>
-        
+
     </section>
     <br><br><br>
     <!-- Footer Section -->
@@ -120,4 +192,5 @@
         <p>&copy; 2024 Abhishek Masur Jayatheertha</p>
     </footer>
 </body>
+
 </html>

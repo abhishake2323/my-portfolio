@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    background: rgb(117,118,81);
-background: linear-gradient(320deg, rgba(117,118,81,1) 0%, rgba(81,111,118,1) 64%, rgba(0,212,255,1) 100%);
+    background: rgb(117, 118, 81);
+    background: linear-gradient(320deg, rgba(117, 118, 81, 1) 0%, rgba(81, 111, 118, 1) 64%, rgba(0, 212, 255, 1) 100%);
     color: white;
     padding: 20px;
     text-align: center;
@@ -130,28 +130,32 @@ footer {
     padding: 10px 20px 10px 20px;
 }
 
-input:focus,input:active{
+input:focus,
+input:active {
     font-size: 18px;
-    border:1px  
+    border: 1px
 }
-input,textarea{
+
+input,
+textarea {
     font-size: 18px;
-    border:1px   gray;
+    border: 1px gray;
     background-color: #f4f4f4;
     border-radius: 5px;
     width: 80%;
-    margin:0 1rem;
+    margin: 0 1rem;
 }
+
 .d-inline {
     padding: 1rem;
-    margin: 0 1rem 0 1rem; 
+    margin: 0 1rem 0 1rem;
     display: flex;
 }
 
 .dflex {
     align-items: baseline;
-    position: relative; 
-    display:  flex;
+    position: relative;
+    display: flex;
 }
 
 .float-right {
@@ -204,63 +208,65 @@ input,textarea{
     bottom: 0;
 }
 
-table{
+table {
 
     width: 100%;
 }
 
-table >tbody >tr> td >input{
+table>tbody>tr>td>input {
 
-     height: 30px;
+    height: 30px;
 }
 
-table  {
-border-spacing: 1rem;;
-     
-}
- 
+table {
+    border-spacing: 1rem;
+    ;
 
-#contact{
-color: white;
+}
+
+
+#contact {
+    color: white;
     background-color: #757651;
 }
 
-#submitBtn{
+#submitBtn {
 
-      background-color: rgb(217, 193, 32) 
+    background-color: rgb(217, 193, 32)
 }
 
 /* The switch - the box around the slider */
 
- 
+
 .switch {
-    
+
     position: absolute;
     display: inline-block;
-    right:90px;
+    right: 90px;
     width: 47px;
-    top:100px;
+    top: 100px;
     height: 18px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
+}
+
+/* Hide default HTML checkbox */
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  /* The slider */
+}
 
-  .slidertext{
+/* The slider */
+
+.slidertext {
     padding-top: 0px;
-    font-size: 9px; 
-  }
-  .slider {
+    font-size: 9px;
+}
+
+.slider {
     text-wrap: nowrap;
     padding-top: 2px;
     vertical-align: middle;
-    font-size: 8px; 
+    font-size: 8px;
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -270,9 +276,9 @@ color: white;
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 14px;
@@ -283,79 +289,106 @@ color: white;
     background-color: rgb(96, 96, 96);
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: #617281;
     box-shadow: 0 0 3px #e3e33f;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 3px #e3e33f;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     background-color: rgb(252, 252, 180);
     -webkit-transform: translateX(27px);
     -ms-transform: translateX(27px);
     transform: translateX(27px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+}
 
-  .dark-mode{
+/* Rounded sliders */
+.slider.round {
+
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.dark-mode {
     background-color: #585858;
     color: #fff;
-  }
+}
 
-  .dark-mode > #about,
-  .dark-mode > #projects 
-    {
-        background-color: #757575;
-        color: #fff;
-  }
+.dark-mode>#about,
+.dark-mode>#projects {
+    background-color: #757575;
+    color: #fff;
+}
 
-  .dark-mode > .projectcard {
-    background-color:  #615e5e;
-     
-   
+.dark-mode>.projectcard {
+    background-color: #615e5e;
+
+
     box-shadow: 0px 4px 10px rgb(0 0 0 / 30%);
-        color: #fff;
-  }
+    color: #fff;
+}
 
-  .dark-mode   .showDetsBtn {
-    background-color:  #979494;
+.dark-mode .showDetsBtn {
+    background-color: #979494;
     color: #e4e8e9;
 
-  }
+}
 
-  .dark-mode > #contact{
+.dark-mode>#contact {
     background-color: #506e6f;
-  }
-  .dark-mode > header {
-    background: rgb(117,118,81);
-background: linear-gradient(165deg, rgba(117,118,81,1) 0%, rgba(81,111,118,1) 64%, rgba(0,212,255,1) 100%);
+}
+
+.dark-mode>header {
+    background: rgb(117, 118, 81);
+    background: linear-gradient(165deg, rgba(117, 118, 81, 1) 0%, rgba(81, 111, 118, 1) 64%, rgba(0, 212, 255, 1) 100%);
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-.dark-mode .popupwindw
+.dark-mode .popupwindw {
+    background-color: #615e5e;
+}
+
+
+.dark-mode .bg-header {
+    background-color: #696868;
+    color: white;
+}
+
+.dark-mode .skillcards,.dark-mode .skillcard,.dark-mode > #skills 
 {
-    background-color: #615e5e;}
+    background-color: #757575;;
+    color: white;
+}
+ 
+
+* {
+    transition: all 0.25s ease-in-out;
+}
 
 
-    .dark-mode .bg-header  {background-color: #696868; color: white;}
+.skillcards {
+    flex-direction: row;
 
 
-    * {
-        transition: all 0.25s ease-in-out;
-      }
+    display: flex;
+    padding: 0px 0 20px 0;
+}
+
+.skillcard {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+}
