@@ -1,4 +1,22 @@
-console.log("asd")
+
+
+let toggleThemeButton = document.getElementById('toggleTheme');
+
+
+toggleThemeButton.addEventListener('click', function() {
+    if(document.getElementById("checkboxTheme").checked){
+        document.body.classList.add('dark-mode');
+        document.getElementById("about").classList.add('dark-mode');
+        document.getElementById("projects").classList.add('dark-mode');
+    }
+    else{
+        document.body.classList.remove('dark-mode');
+        document.getElementById("about").classList.remove('dark-mode');
+        document.getElementById("projects").classList.remove('dark-mode');
+    }
+   
+});
+
 let aboutme= document.getElementById("about").innerText;
 
 var typed = new Typed('#about1', {
